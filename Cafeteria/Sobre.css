@@ -17,7 +17,6 @@ body{
 }
 .about {
     padding: 20px;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,15 +25,6 @@ body{
 
 .about-content{
     width: 60vw;
-}
-
-.about2{
-    padding: 20px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#f8f9fa !important;
 }
 
 .titulo{
@@ -66,12 +56,9 @@ body{
 }
 
 footer {
-    background-color:#fff;
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 50px;
-}
+    background-color: #f8f9fa;
+    color: black;
+  }
